@@ -3,7 +3,7 @@
     v-model="input"
     style="width: 240px"
     placeholder="Please input"
-    :formatter="(value) => `$ ${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',')"
+    :formatter="(value) => `实打实的 ${value}`"
     :parser="(value) => value.replace(/\$\s?|(,*)/g, '')"
   />
 </template>
